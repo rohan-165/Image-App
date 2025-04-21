@@ -52,13 +52,23 @@ class ConfirmDialog extends StatelessWidget {
             style: context.textTheme.headlineLarge?.copyWith(
               fontWeight: FontWeight.w600,
             ),
-          ).padBottom(bottom: 20.h),
-          Text(message),
+          ).padBottom(bottom: 10.h),
+          Text(
+            message,
+            style: context.textTheme.bodyLarge,
+            textAlign: TextAlign.center,
+          ),
         ],
       ),
       actions: [
-        TextButton(onPressed: onCancel, child: const Text("Cancel")),
-        ElevatedButton(onPressed: onConfirm, child: const Text("OK")),
+        TextButton(
+          onPressed: onCancel,
+          child: Text("Cancel", style: context.textTheme.bodyLarge),
+        ),
+        ElevatedButton(
+          onPressed: onConfirm,
+          child: Text("OK", style: context.textTheme.bodyLarge),
+        ),
       ],
     );
   }

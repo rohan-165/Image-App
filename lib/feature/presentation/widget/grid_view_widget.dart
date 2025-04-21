@@ -15,6 +15,7 @@ class GridViewWidget extends StatelessWidget {
       physics: const BouncingScrollPhysics(),
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
+        childAspectRatio: 0.7,
         crossAxisSpacing: 10.w,
         mainAxisSpacing: 10.h,
       ),
