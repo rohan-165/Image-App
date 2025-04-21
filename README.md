@@ -1,7 +1,3 @@
-Here's an updated version of your `README.md` file for the **image-app** project, replacing the default Flutter content with the app-specific description you provided:
-
----
-
 # 📸 image-app
 
 A Flutter application that showcases images in an elegant and interactive UI, with support for favorites, previewing, searching, and offline data storage.
@@ -16,15 +12,21 @@ A Flutter application that showcases images in an elegant and interactive UI, wi
   - Single tap opens the **Image Preview Screen**.
   - Double tap in preview toggles the image as a favorite.
 
+  <img src="screenshots/home.jpg" alt="Home Screen" width="300" height="600"> 
+
 - **🔍 Search Screen**
   - Accessed via a search icon.
   - Allows searching for images.
   - Last search is stored using BLoC state until the session ends or it's cleared.
 
+  <img src="screenshots/search.jpg" alt="Search Screen" width="300" height="600"> 
+
 - **❤️ Favorites Screen**
   - Accessed via the favorite icon in the Home AppBar.
   - Displays saved favorite images.
   - Includes a **Clear All** button to remove all saved favorites.
+
+  <img src="screenshots/favorite.jpg" alt="Favorites Screen" width="300" height="600"> 
 
 - **📦 Local Storage**
   - Uses **Hive** as a local database to persist favorite images.
@@ -33,19 +35,29 @@ A Flutter application that showcases images in an elegant and interactive UI, wi
 - **📶 Internet Connectivity Indicator**
   - Shows connection status via a bottom indicator.
 
+  <img src="screenshots/online.jpg" alt="Online View" width="300" height="300">  | <img src="screenshots/offline.jpg" alt="Offline View" width="300" height="300">  
+
+  
+
 ---
 
-## 🖼️ Screenshots
+### Image Preview  
+<img src="screenshots/imageview.jpg" alt="Alert Dialog" width="300" height="600">  
 
-| Home Screen | Image Preview | Favorites | Search |
-|-------------|----------------|------------|--------|
-| ![Home](screenshots/home.png) | ![Preview](screenshots/preview.png) | ![Favorites](screenshots/favorites.png) | ![Search](screenshots/search.png) |
+### Alert Dialog  
+<img src="screenshots/alert1.jpg" alt="Alert Dialog" width="300" height="600">  | <img src="screenshots/alert2.jpg" alt="Alert Dialog" width="300" height="600">
+
+
 
 ---
 
 ## 🛠 Getting Started
 
-To run this project:
+
+1. **Clone the Repository**:  
+```bash  
+git clone https://github.com/rohan-165/Image-App.git  
+cd Image-App  
 
 ```bash
 flutter pub get
@@ -60,4 +72,5 @@ Make sure you have Flutter installed. For more information:
 
 ---
 
-Let me know if you'd like to include installation requirements, API details (if any), or contribution guidelines!
+
+You can save this content in your `README.md` file directly. Let me know if you need help with any specific part of the project setup or codebase!
