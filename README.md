@@ -58,6 +58,9 @@ A Flutter application that showcases images in an elegant and interactive UI, wi
 ```bash  
 git clone https://github.com/rohan-165/Image-App.git  
 cd Image-App  
+```
+
+---
 
 ```bash
 flutter pub get
