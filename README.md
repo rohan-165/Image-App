@@ -1,6 +1,6 @@
 # 📸 image-app
 
-A Flutter application that showcases images in an elegant and interactive UI, with support for favorites, previewing, searching, and offline data storage.
+A Flutter application that showcases images in an elegant and interactive UI, with support for favorites, searching, and offline data storage.
 
 ---
 
@@ -9,8 +9,7 @@ A Flutter application that showcases images in an elegant and interactive UI, wi
 - **🏠 Home Screen**
   - Displays images in a grid view.
   - Each image includes a favorite icon to add/remove from favorites.
-  - Single tap opens the **Image Preview Screen**.
-  - Double tap in preview toggles the image as a favorite.
+  - Single tap in preview toggles the image as a favorite.
 
   <img src="screenshots/home.jpg" alt="Home Screen" width="300" height="600"> 
 
@@ -41,11 +40,10 @@ A Flutter application that showcases images in an elegant and interactive UI, wi
 
 ---
 
-### Image Preview  
-<img src="screenshots/imageview.jpg" alt="Alert Dialog" width="300" height="600">  
+ 
 
 ### Alert Dialog  
-<img src="screenshots/alert1.jpg" alt="Alert Dialog" width="300" height="600">  | <img src="screenshots/alert2.jpg" alt="Alert Dialog" width="300" height="600">
+<img src="screenshots/alert.jpg" alt="Alert Dialog" width="300" height="600"> 
 
 
 
